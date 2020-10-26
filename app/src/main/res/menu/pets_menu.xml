@@ -4,9 +4,6 @@
 
     <item
         android:id="@+id/home"
-        android:title="Home"
-        app:showAsAction="ifRoom"/>
-    <item android:id="@+id/sitter_menu"
         android:title="Back"
         app:showAsAction="ifRoom"/>
     <item android:id="@+id/add_pet_menu"

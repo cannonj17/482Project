@@ -48,7 +48,7 @@
         android:id="@+id/animal_field"
         android:layout_toEndOf="@+id/pet_name"
         android:layout_below="@+id/pet_name"
-        android:layout_above="@id/pet_qualities"
+        android:layout_above="@id/add_photo_button"
         android:layout_height="wrap_content"
         android:textSize="30sp"
         android:layout_alignEnd="@id/pet_info"
@@ -56,13 +56,25 @@
         android:autofillHints="phone"
         android:inputType="text" />
 
+    <Button
+        android:id="@+id/add_photo_button"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorBlack"
+        android:layout_below="@+id/animal"
+        android:text="Add a Photo"
+        android:onClick="addPhoto"
+        />
+
     <TextView
         android:id="@+id/pet_qualities"
         android:layout_marginTop="15dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="My pet is..."
-        android:layout_below="@id/animal"
+        android:layout_below="@id/add_photo_button"
         android:textSize="40sp" />
 
     <Switch

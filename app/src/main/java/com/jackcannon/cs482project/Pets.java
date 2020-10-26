@@ -31,8 +31,6 @@ public class Pets extends AppCompatActivity {
             case R.id.action_favorite:
                 startActivity(new Intent(this, HomeActivity.class));
                 return true;
-            case R.id.sitter_menu:
-                finish();
             case R.id.add_pet_menu:
                 startActivity(new Intent(this, AddPet.class));
                 return true;

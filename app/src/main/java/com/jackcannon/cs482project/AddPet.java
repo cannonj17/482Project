@@ -18,4 +18,8 @@ public class AddPet extends AppCompatActivity {
         //do something with entered info, then go back to pets menu
         finish();
     }
+
+    public void addPhoto(View view) {
+
+    }
 }
