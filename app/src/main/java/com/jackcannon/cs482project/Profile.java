@@ -18,6 +18,7 @@ public class Profile extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.profile);
+        setTitle("Profile Settings");
 
         name = (EditText) findViewById(R.id.name_field);
         phone = (EditText) findViewById(R.id.phone_field);
