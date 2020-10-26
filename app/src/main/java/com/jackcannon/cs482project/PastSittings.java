@@ -10,5 +10,6 @@ public class PastSittings extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.past_sittings);
+        setTitle("Past Sittings");
     }
 }

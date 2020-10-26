@@ -10,5 +10,6 @@ public class Subscription extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.subscription);
+        setTitle("Manage Your Subscription");
     }
 }

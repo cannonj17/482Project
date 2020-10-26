@@ -10,5 +10,6 @@ public class Rewards extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.rewards);
+        setTitle("Track Your Rewards");
     }
 }
