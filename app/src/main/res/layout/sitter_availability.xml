@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorLightGreen">
 
@@ -9,8 +9,7 @@
         android:layout_height="wrap_content"
         android:textColor="@color/colorBlack"
         android:textSize="28dp"
-        android:text="This screen will, have a create new sitterEvent button, then below, show owners the different sitterEvents they created, which will have a list of accepted sitters under each event when clicked."
+        android:text="This screen will contain a calendar view for updating sitter availability."
         />
-
 
 </RelativeLayout>

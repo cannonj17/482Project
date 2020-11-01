@@ -9,6 +9,8 @@
     <item android:id="@+id/action_favorite"
         android:title="Current Sittings"
         app:showAsAction="ifRoom" />
+    <item android:id="@+id/sitter_Availability"
+        android:title="Manage Availability" />
     <item android:id="@+id/rewards_menu"
         android:title="My Rewards" />
     <item android:id="@+id/past_sittings_menu"

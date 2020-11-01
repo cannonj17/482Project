@@ -40,6 +40,9 @@ public class Sitter extends AppCompatActivity {
             case R.id.feedback_menu:
                 startActivity(new Intent(this, Feedback.class));
                 return true;
+            case R.id.sitter_Availability:
+                startActivity(new Intent(this, SitterAvailability.class));
+
             default:
                 return super.onOptionsItemSelected(item);
         }
