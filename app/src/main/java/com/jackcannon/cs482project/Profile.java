@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class Profile extends AppCompatActivity {
 
     EditText name, phone, address;
-    Button save;
+    Button save, payPal;
     Switch owner, sitter;
 
     @Override
@@ -24,6 +24,7 @@ public class Profile extends AppCompatActivity {
         phone = (EditText) findViewById(R.id.phone_field);
         address = (EditText) findViewById(R.id.address_field);
         save = (Button) findViewById(R.id.settings_save_button);
+        payPal = (Button) findViewById(R.id.paypal_link_button);
         owner = (Switch) findViewById(R.id.switch1);
         sitter = (Switch) findViewById(R.id.switch2);
     }
@@ -31,5 +32,9 @@ public class Profile extends AppCompatActivity {
     public void goHome(View view) {
         //add persistent data, do all updating here
         finish();
+    }
+
+    public void doPaypalLink(View view) {
+
     }
 }

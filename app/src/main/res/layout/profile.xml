@@ -81,13 +81,22 @@
         android:autofillHints="address"
         android:inputType="text" />
 
+    <Button
+        android:id="@+id/paypal_link_button"
+        android:layout_below="@id/address"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Add Paypal Information"
+        android:onClick="doPaypalLink"/>
+
     <TextView
         android:id="@+id/profile_types"
         android:layout_marginTop="15dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="I am a..."
-        android:layout_below="@id/address"
+        android:layout_below="@id/paypal_link_button"
         android:textSize="40sp" />
 
     <Switch
