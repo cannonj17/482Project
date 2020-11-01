@@ -5,12 +5,10 @@
     android:background="@color/colorLightGreen">
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:text="No pets? Add a pet to get started."
         android:textSize="24sp"
-        android:gravity="center"
+        android:text="This view is for each sitter request created by the owner. A similar class exists for Sitters to be able to view owner requests"
         />
 
 </RelativeLayout>

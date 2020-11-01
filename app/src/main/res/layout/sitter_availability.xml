@@ -8,8 +8,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/colorBlack"
-        android:textSize="28dp"
-        android:text="This screen will contain a calendar view for updating sitter availability."
+        android:textSize="28sp"
+        android:text="This screen will allow sitters to edit their availability."
         />
 
 </RelativeLayout>
